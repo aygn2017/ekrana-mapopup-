@@ -224,10 +224,10 @@ function SettingsPopup() {
            
             <div class="pop-input">
   
-            <td><input type="text" name="ad" id="ad" required placeholder="Ad Soyad"></td>
+            <input type="text" name="ad" id="ad" required placeholder="Ad Soyad">
   
-            <td><input type="text" name="tel" id="telefon" required placeholder="Cep Telefonu"></td>
-            <td><input type="text" name="email" id="eposta" required placeholder="E-Posta Adresi*"></td>
+            <input type="text" name="tel" id="telefon" required placeholder="Cep Telefonu">
+            <input type="text" name="email" id="eposta" required placeholder="E-Posta Adresi*">
   
             <button class="vl-back" style='display:none;'><i class="fas fa-undo"></i></button>
             <button class="vl-popup-button">GÖNDER</button>
@@ -357,7 +357,6 @@ function SettingsPopup() {
         };
     })();
     window.addEventListener("scroll", function () {
-       
         var st = window.pageYOffset || document.documentElement.scrollTop;
         if (st > lastScrollTop) {
         } else {
